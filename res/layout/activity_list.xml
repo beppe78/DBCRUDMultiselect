@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+      
+  	<FrameLayout android:id="@+id/FrameLayout01" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content">
+      
+         <ImageButton android:id="@+id/btn_indietro" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"               
+              android:layout_gravity="left"
+              android:src="@drawable/backpage"
+              android:onClick="indietroHome"/>
+         
+        <TextView android:id="@+id/database_text" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:text="Database" 
+              android:textSize="20dp"
+              android:textColor="#000000"
+              android:layout_gravity="center">
+        </TextView>
+
+    </FrameLayout>
+
+     <ListView
+         android:id="@android:id/list"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true">
+     </ListView>
+
+
+    
+
+  </LinearLayout>

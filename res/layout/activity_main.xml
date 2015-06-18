@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"       
+        android:text="Click on Buttons"        
+        android:textSize="10dp" />
+    
+    <Button android:id="@+id/btn_add_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" 
+        android:text="Add Name of Student"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:onClick="openAggiungiPrimaTabella"/>
+    
+    <Button android:id="@+id/btn_add_db2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" 
+        android:text="Add Name of Student 2"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:onClick="openAggiungiSecondaTabella"/>
+    
+    <Button android:id="@+id/btn_edit_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" 
+        android:text="Edit Name of Student"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:onClick="openListPrimaTabella"/>
+    
+    <Button android:id="@+id/btn_edit_db2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" 
+        android:text="Edit Name of Student"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:onClick="openListSecondaTabella"/>
+    
+    <Button android:id="@+id/btn_show_list_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" 
+        android:text="Show List of Student"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:onClick="openListPrimaTabella"/>
+    
+    <Button android:id="@+id/btn_show_list_db2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" 
+        android:text="Show List of Student 2"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:onClick="openListSecondaTabella"/>
+
+</LinearLayout>
